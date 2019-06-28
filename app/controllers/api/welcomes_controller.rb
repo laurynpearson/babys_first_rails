@@ -3,4 +3,7 @@ class Api::WelcomesController < ApplicationController
     @random = Random.new.rand(100)
     render "hello.json.jb"
   end
+  def about
+    render 'about.json.jb'
+  end
 end
