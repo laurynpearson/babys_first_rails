@@ -1,0 +1,4 @@
+{
+  message: "hi",
+  random: @random
+}
