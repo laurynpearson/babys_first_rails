@@ -4,6 +4,7 @@ class Api::WelcomesController < ApplicationController
     render "hello.json.jb"
   end
   def about
+    @language = 'ruby'
     render 'about.json.jb'
   end
 end
